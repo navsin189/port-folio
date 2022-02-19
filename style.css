@@ -83,6 +83,12 @@
   font-size: large;
   font-weight: 900;
 }
+
+.detail-heading:hover {
+  background-color: transparent;
+  color: white;
+}
+
 .intro-para {
   color: white;
   margin: 20px 15px;
@@ -106,6 +112,7 @@
 .proj strong {
   color: #da0f12;
 }
+
 .proj {
   cursor: pointer;
 }
