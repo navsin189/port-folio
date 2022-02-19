@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" type="image/x-icon" href="icon.svg">
+
+    <title>PortFolio</title>
+  </head>
+  <body class="body">
+    <div class="flexbox-layout">
+      <div class="vertical-nav" id="first-section">
+        <div class="avatar">
+          <img src="dp.png" alt="display profile" class="dp" />
+        </div>
+        <div class="nav-flex">
+          <div class="nav-list" id="skill-section">
+            <a href="#1"> Skillset </a>
+          </div>
+          <div class="nav-list" id="project-section">
+            <a href="#2"> Projects </a>
+          </div>
+          <div class="nav-list" id="blog-section"><a href="#3"> Blogs </a></div>
+          <div class="nav-list" id="interest-section">
+            <a href="#4"> Interests </a>
+          </div>
+          <div class="nav-list" id="contact-section">
+            <a href="#5"> Contact </a>
+          </div>
+          <div class="nav-list" id="minimal">
+            <a href="index.html">Minimal Design</a>
+          </div>
+        </div>
+      </div>
+      <div class="detail" id="sec-section">
+        <div class="title">
+          <h1 class="name">
+            <span class="first-letter">N</span>aveen
+            <span class="first-letter">K</span>umar
+            <span class="first-letter">S</span>ingh
+          </h1>
+          <h2 class="education">CS Grad</h2>
+        </div>
+        <div class="introduction">
+          <blockquote class="intro">
+            Have one year experience in Full Stack Web Development using Django
+            and ReactJS. Also did my hands dirty on MERN as I'm passionate about
+            learning new technologies and tools. Have experience in database
+            design, API testing and application deployment on cloud platform.
+            Apart from web development, I also tried Mobile application
+            development using cross platform tools that is React Native and
+            Flutter. I just want to learn and cover the alternatives of tools
+            that I know e.g. Podman, Puppet, Lua etc.
+          </blockquote>
+        </div>
+        <div class="subheading" id="1">
+          <h2>SKILLSET</h2>
+        </div>
+        <div class="skill-display">
+          <span class="tools">
+            <img src="images/html5.png" alt="HTML5" class="tool-icon" />
+            HTML5
+          </span>
+          <span class="tools">
+            <img src="images/css.png" alt="CSS3" class="tool-icon" />CSS3
+          </span>
+          <span class="tools">
+            <img
+              src="images/js.png"
+              alt="JavaScript"
+              class="tool-icon"
+            />JavaScript
+          </span>
+          <span class="tools">
+            <img src="images/python.png" alt="Python" class="tool-icon" />Python
+          </span>
+          <span class="tools">
+            <img src="images/django.png" alt="Django" class="tool-icon" />Django
+          </span>
+          <span class="tools">
+            <img
+              src="images/react.png"
+              alt="ReactJS"
+              class="tool-icon"
+            />ReactJS
+          </span>
+          <span class="tools">
+            <img src="images/nodejs.png" alt="NodeJS" class="tool-icon" />NodeJS
+          </span>
+          <span class="tools">
+            <img
+              src="images/express.png"
+              alt="ExpressJS"
+              class="tool-icon"
+            />ExpressJS
+          </span>
+          <span class="tools">
+            <img
+              src="images/postgres.png"
+              alt="PostgreSQL"
+              class="tool-icon"
+            />PostgreSQL
+          </span>
+          <span class="tools">
+            <img
+              src="images/mongo.png"
+              alt="MongoDB"
+              class="tool-icon"
+            />MongoDB
+          </span>
+          <span class="tools">
+            <img src="images/git.png" alt="Git" class="tool-icon" />Git
+          </span>
+          <span class="tools">
+            <img
+              src="images/jenkins.png"
+              alt="Jenkins"
+              class="tool-icon"
+            />Jenkins
+          </span>
+          <span class="tools">
+            <img src="images/docker.png" alt="Docker" class="tool-icon" />Docker
+          </span>
+          <span class="tools">
+            <img
+              src="images/ansible.png"
+              alt="Ansible"
+              class="tool-icon"
+            />Ansible
+          </span>
+        </div>
+        <div class="subheading" id="2">
+          <h2>PROJECTS</h2>
+        </div>
+        <div class="proj-list">
+          <div class="proj" id="proj1">
+            <h3 class="proj-title">LeanWork:</h3>
+            <blockquote>
+              Worked on an Kanban-like application for work management. Involved
+              in design, development, testing and deployment of the application.
+              Contributed to database design and sequence diagrams for the
+              application. Developed features like user profile, dark-light
+              theme and internationalization in the application. Deployed the
+              application on AWS cloud platform.<br />
+              <strong> Particulars: </strong>
+              Django, ReactJS, Redux, TypeScript, PostgreSQL, AWS (DynamoDB, S3,
+              EC2), PlantUML
+            </blockquote>
+          </div>
+          <div class="proj" id="proj2">
+            <h3 class="proj-title">VacTrack:</h3>
+            <blockquote>
+              Worked on an online vaccination tracker application for parents.
+              Involved in design, development, testing and deployment of the
+              application. Contributed to database design and sequence diagrams
+              for the application. Developed features like JWT authentication,
+              CAPTCHA for login and signup, and notification for upcoming
+              vaccination for children.<br />
+              <strong> Particulars: </strong>
+              Django, ReactJS, PostgreSQL, AWS
+            </blockquote>
+          </div>
+          <div class="proj" id="proj3">
+            <h3 class="proj-title">E-commerce:</h3>
+            <blockquote>
+              Worked on an online ecommerce application. Involved in design,
+              development, testing and deployment of the application.
+              Contributed to database design and sequence diagrams for the
+              application. Developed features like shopping cart, order history
+              and payment integration. <br />
+              <strong> Particulars: </strong>
+              Django, ReactJS, Postgresql, Braintree (payment integration)
+            </blockquote>
+          </div>
+          <div class="proj" id="proj4">
+            <h3 class="proj-title">Python Compiler(Interpreter):</h3>
+            <blockquote>
+              Created web application using python and HTML as Backend and
+              Frontend respectively. Operating system used is Linux and CGI as
+              gateway. The application is deployed in docker container.<br />
+              <strong> Particulars: </strong>
+              Python, Docker, Linux, Apache-httpd web server, CGI(Common gateway
+              Interface)
+            </blockquote>
+          </div>
+        </div>
+        <div class="subheading" id="3">
+          <h2>BLOGS</h2>
+        </div>
+        <div class="blogs">
+          <span class="blog-cards">
+            <img src="images/boot.gif" alt="Boot-process" class="blog-icon" />
+            <h4 class="blog-heading">
+              <a
+                href="https://sunnykkc13.medium.com/boot-process-the-most-underrated-process-ec2910d569fe"
+                >Boot Process</a
+              >
+            </h4>
+          </span>
+          <span class="blog-cards">
+            <img src="images/djangoo.gif" alt="django-icon" class="blog-icon" />
+            <h4 class="blog-heading">
+              <a
+                href="https://sunnykkc13.medium.com/django-a-complete-toolbox-for-web-development-bf0ebb54c263"
+                >Django Web Framework</a
+              >
+            </h4>
+          </span>
+          <span class="blog-cards">
+            <img src="images/mongoo.gif" alt="mongo-icon" class="blog-icon" />
+            <h4 class="blog-heading">
+              <a
+                href="https://sunnykkc13.medium.com/introduction-to-mongodb-a-nosql-database-b076cb8bb188"
+                >Introduction to MongoDB</a
+              >
+            </h4>
+          </span>
+          <span class="blog-cards">
+            <img src="images/pypy.gif" alt="py-icon" class="blog-icon" />
+            <h4 class="blog-heading">
+              <a
+                href="https://sunnykkc13.medium.com/created-a-python-compiler-web-app-using-cgi-common-gateway-interface-using-redhat-linux-for-ac376e5f0a01"
+                >Python Compiler</a
+              >
+            </h4>
+          </span>
+          <span class="blog-cards">
+            <img src="images/mlb.gif" alt="icon" class="blog-icon" />
+            <h4 class="blog-heading">
+              <a
+                href="https://sunnykkc13.medium.com/beginners-machine-learning-ml-48c39e09acf2"
+                >Beginner’s Machine Learning (ML)</a
+              >
+            </h4>
+          </span>
+          <span class="blog-cards">
+            <img src="images/mll.gif" alt="icon" class="blog-icon" />
+            <h4 class="blog-heading">
+              <a
+                href="https://sunnykkc13.medium.com/advancing-beginners-towards-machine-learning-bcd4a4ba4677"
+                >Advancing Beginners’ towards Machine Learning</a
+              >
+            </h4>
+          </span>
+        </div>
+        <div class="subheading" id="4">
+          <h2>INTERESTS</h2>
+        </div>
+        <div class="interest-show">
+          <blockquote>
+            <strong>I love to write blogs</strong> because there are many other
+            who faces those issues which I faced and can not get any clear
+            solution for the same. So, just to share my understanding on a
+            particular topics I do this. <strong>Science fiction</strong> movies
+            and web shows are the one where I spend my leisure time, specially
+            Japenese animation is most I like watching and the favorites are
+            <strong>Naruto, Bleach and Beelzebub</strong>. I'm also a fitness
+            freak and love to go to the gym as physical apperance boost my
+            confidence. Travelling to new places is a stress buster for me
+            that's why once in 3 month I roam to new places.
+          </blockquote>
+        </div>
+        <div class="subheading" id="5">
+          <h2>CONTACT</h2>
+        </div>
+        <div class="contact-list">
+          <span class="svg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="#da0f12"
+              class="bi bi-envelope-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+              />
+            </svg>
+            navsin189@gmail.com
+          </span>
+          <span class="svg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="#da0f12"
+              class="bi bi-phone-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"
+              />
+            </svg>
+            +917379769520
+          </span>
+          <span class="svg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="#da0f12"
+              class="bi bi-blockquote-left"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.5 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm5 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6zm0 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6zm-5 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm.79-5.373c.112-.078.26-.17.444-.275L3.524 6c-.122.074-.272.17-.452.287-.18.117-.35.26-.51.428a2.425 2.425 0 0 0-.398.562c-.11.207-.164.438-.164.692 0 .36.072.65.217.873.144.219.385.328.72.328.215 0 .383-.07.504-.211a.697.697 0 0 0 .188-.463c0-.23-.07-.404-.211-.521-.137-.121-.326-.182-.568-.182h-.282c.024-.203.065-.37.123-.498a1.38 1.38 0 0 1 .252-.37 1.94 1.94 0 0 1 .346-.298zm2.167 0c.113-.078.262-.17.445-.275L5.692 6c-.122.074-.272.17-.452.287-.18.117-.35.26-.51.428a2.425 2.425 0 0 0-.398.562c-.11.207-.164.438-.164.692 0 .36.072.65.217.873.144.219.385.328.72.328.215 0 .383-.07.504-.211a.697.697 0 0 0 .188-.463c0-.23-.07-.404-.211-.521-.137-.121-.326-.182-.568-.182h-.282a1.75 1.75 0 0 1 .118-.492c.058-.13.144-.254.257-.375a1.94 1.94 0 0 1 .346-.3z"
+              />
+            </svg>
+            Blogs
+          </span>
+          <span class="svg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="#da0f12"
+              class="bi bi-instagram"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+              />
+            </svg>
+            Naveen
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

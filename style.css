@@ -137,6 +137,17 @@
   margin-right: 4px;
 }
 
+.work {
+  cursor: pointer;
+  color: #da0f12;
+}
+a {
+  text-decoration: none;
+}
+a:link,
+a:visited {
+  color: currentColor;
+}
 @media only screen and (max-width: 790px) {
   .project-list {
     flex-direction: column;
